@@ -1,0 +1,139 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+body {
+    background: #1f253d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.big-profile-picture {
+    margin: 0 auto;
+    border: 5px solid #50597b;
+    width: 150px;
+    height: 150px;
+}
+
+.middle-container {
+    margin: 0 25px;
+}
+
+.profile {
+    height: 410px;
+}
+
+.user-name {
+    margin: 25px 0 16px;
+    text-align: center;
+}
+
+.profile-description {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.scnd-font-color {
+    color: #9099b7;
+}
+
+.profile-options {
+    padding-top: 23px;
+}
+
+ul.profile-options.horizontal-list {
+    text-align: center;
+
+}
+
+.profile-options li {
+    border: 1px solid #1f253d;
+    display: inline-block;
+
+}
+
+ul.profile-options label {
+    display: inline-block;
+
+}
+
+.profile-options p {
+    margin: 0;
+}
+
+.profile-options a {
+    display: block;
+    width: 99px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    color: black;
+}
+
+.profile-options a:hover {
+    text-decoration: none;
+    background: #50597b;
+    color: antiquewhite;
+}
+
+.profile-options a:hover.comments .icon {
+    color: #fcb150;
+}
+
+.profile-options a:hover.views .icon {
+    color: #11a8ab;
+}
+
+.profile-options a:hover.likes .icon {
+    color: #e64c65;
+}
+
+.profile-options .icon {
+    padding-right: 10px;
+}
+
+.profile-options .comments {
+    border-top: 4px solid #fcb150;
+}
+
+.profile-options .views {
+    border-top: 4px solid #11a8ab;
+}
+
+.profile-options .likes {
+    border-top: 4px solid #e64c65;
+}
+
+
+
+li.text-inline {
+    display: inline-block;
+}
+
+
+ul.horizontal-list {
+    text-align: center;
+}
+
+ul.review {
+    text-align: center;
+}
+
+li.text-inline{
+    margin: 20px;   
+}
